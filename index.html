@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JS Event Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>JS Event Handling & Interactive Demo</h1>
+
+  <!-- 1. Event Handling 🎈 -->
+  <section>
+    <h2>Event Handling</h2>
+    <button id="clickBtn">Click Me!</button>
+    <button id="hoverBtn">Hover Over Me!</button>
+    <input type="text" id="keypressInput" placeholder="Type something...">
+  </section>
+
+  <!-- 2. Interactive Elements 🎮 -->
+  <section>
+    <h2>Interactive Elements</h2>
+    <button id="colorBtn">Change My Color/Text</button>
+
+    <div class="gallery">
+      <button id="prevBtn">◀</button>
+      <img id="galleryImg" src="https://via.placeholder.com/300x200?text=1" alt="Gallery">
+      <button id="nextBtn">▶</button>
+    </div>
+
+    <div class="tabs">
+      <button class="tab" data-tab="1">Tab 1</button>
+      <button class="tab" data-tab="2">Tab 2</button>
+    </div>
+    <div id="tab1" class="tabContent">Content for Tab 1</div>
+    <div id="tab2" class="tabContent">Content for Tab 2</div>
+  </section>
+
+  <!-- 3. Form Validation 📋✅ -->
+  <section>
+    <h2>Form Validation</h2>
+    <form id="myForm" novalidate>
+      <div>
+        <input type="text" id="username" placeholder="Username" required>
+      </div>
+      <div>
+        <input type="email" id="email" placeholder="Email" required>
+      </div>
+      <div>
+        <input type="password" id="password" placeholder="Password" required>
+        <div id="passwordFeedback" class="feedback"></div>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

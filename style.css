@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: 2rem auto;
+    line-height: 1.4;
+  }
+  section { margin-bottom: 2rem; }
+  button, input { margin: .5rem 0; padding: .5rem; font-size: 1rem; }
+  .gallery { display: flex; align-items: center; }
+  .gallery img { max-width: 300px; margin: 0 1rem; }
+  .tabContent { display: none; padding: 1rem; border: 1px solid #ccc; margin-top: .5rem; }
+  .feedback { font-size: .9rem; height: 1.2em; }
+  
